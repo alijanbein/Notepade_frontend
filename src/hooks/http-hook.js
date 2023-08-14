@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const UseHttp = () => {
-  const BASE_URL = "http://localhost:4000/api/";
+  const BASE_URL = "https://alert-bee-pajamas.cyclic.app/api/";
   const [isLoading, setIsLoading] = useState(false);
   const [error, setIsError] = useState("");
   const sendRequest = async (url, method = "GET", body = "", header = {}) => {
